@@ -99,7 +99,7 @@ function updateObstacles() {
             obstacles.splice(index, 1);
             score++;
             scoreElement.innerText = score;
-            if(score % 5 === 0) gameSpeed += 0.2; // Speed badhayega
+            if(score % 5 === 5) gameSpeed += 0.2; // Speed badhayega
         }
     });
 }
