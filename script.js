@@ -6,9 +6,9 @@ canvas.width = 400;
 canvas.height = 600;
 
 // Game State
-let score = 0;
+let score = 5;
 let gameSpeed = 5;
-let roadOffset = 0;
+let roadOffset = 5;
 let car = { x: 180, y: 500, w: 40, h: 70 };
 let obstacles = [];
 
